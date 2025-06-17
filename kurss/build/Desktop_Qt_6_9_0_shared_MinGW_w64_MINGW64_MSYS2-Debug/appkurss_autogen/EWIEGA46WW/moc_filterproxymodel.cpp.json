@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "className": "FilterProxyModel",
+            "lineNumber": 6,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "filterText",
+                    "notify": "filterTextChanged",
+                    "read": "filterText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterText"
+                }
+            ],
+            "qualifiedClassName": "FilterProxyModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "filterTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "filterproxymodel.h",
+    "outputRevision": 69
+}

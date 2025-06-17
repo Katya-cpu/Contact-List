@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/kurss">
+        <file>ContactDelegate.ui.qml</file>
+        <file>ContactDialog.qml</file>
+        <file>ContactForm.ui.qml</file>
+        <file>ContactList.qml</file>
+        <file>ContactView.ui.qml</file>
+        <file>Main.qml</file>
+        <file>SectionDelegate.ui.qml</file>
+        <file>default-avatar.png</file>
+    </qresource>
+</RCC>

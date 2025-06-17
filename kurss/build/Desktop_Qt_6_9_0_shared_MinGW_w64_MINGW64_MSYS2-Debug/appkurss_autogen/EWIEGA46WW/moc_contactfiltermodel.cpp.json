@@ -1,0 +1,194 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ContactFilterModel",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "isConst": true,
+                    "name": "get",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "fullName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "city",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "number",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "workPhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "homePhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "birthDate",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "photo",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "append",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "fullName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "city",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "number",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "workPhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "homePhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "birthDate",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "photo",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "set",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "remove",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "searchTerm",
+                    "notify": "searchTermChanged",
+                    "read": "searchTerm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSearchTerm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "source",
+                    "read": "source",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ContactModel*",
+                    "user": false,
+                    "write": "setSource"
+                }
+            ],
+            "qualifiedClassName": "ContactFilterModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "searchTermChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nanoseconds",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "searchPerformance",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "contactfiltermodel.h",
+    "outputRevision": 69
+}

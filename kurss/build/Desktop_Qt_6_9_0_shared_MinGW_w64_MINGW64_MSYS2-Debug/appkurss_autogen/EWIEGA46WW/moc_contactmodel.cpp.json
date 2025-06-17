@@ -1,0 +1,161 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ContactModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ContactRole",
+                    "values": [
+                        "FullNameRole",
+                        "AddressRole",
+                        "CityRole",
+                        "NumberRole",
+                        "WorkPhoneRole",
+                        "HomePhoneRole",
+                        "EmailRole",
+                        "BirthDateRole",
+                        "PhotoRole"
+                    ]
+                }
+            ],
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "isConst": true,
+                    "name": "get",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "fullName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "city",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "number",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "workPhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "homePhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "birthDate",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "photo",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "append",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "fullName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "city",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "number",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "workPhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "homePhone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "birthDate",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "photo",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "set",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "remove",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ContactModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "contactmodel.h",
+    "outputRevision": 69
+}
